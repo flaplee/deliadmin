@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1903px" height="1024px" viewBox="0 0 1903 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="21.2280273%" fx="50%" fy="21.2280273%" r="72.6725555%" id="radialGradient-1">
+            <stop stop-color="#375D95" offset="0%"></stop>
+            <stop stop-color="#375D94" offset="12.5457759%"></stop>
+            <stop stop-color="#3A4963" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="登录页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3确定用这个" fill="url(#radialGradient-1)">
+            <rect id="Rectangle-4" x="-17" y="0" width="1920" height="1024"></rect>
+        </g>
+    </g>
+</svg>

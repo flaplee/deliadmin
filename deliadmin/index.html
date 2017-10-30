@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="fragment" content="!" />
+	<title>得力智能产品基础管理平台</title>
+	<style>
+		body.loading * {
+			display: none;
+		}
+		body.loading #loading,
+		body.loading #loading * {
+			display: block;
+		}
+	</style>
+	<script src='/framework/all.js'></script>
+</head>
+<body class="loading">
+	<div id="menu">
+		<div class="m0">
+			<div class="title">
+				供应商管理
+			</div>
+			<a href="#!producer" class="active" style="background-image: url(&quot;/dev/site/index/icons/search.svg&quot;);">全部</a>
+			<a href="#!producer&status=1" class="" style="background-image: url(&quot;/dev/site/index/icons/search.svg&quot;);">状态1</a>
+			<a href="#!producer&status=2" class="" style="background-image: url(&quot;/dev/site/index/icons/search.svg&quot;);">状态2</a>
+			<a href="#!producer&status=3" class="" style="background-image: url(&quot;/dev/site/index/icons/search.svg&quot;);">状态3</a>
+		</div>
+		<div class="m1">
+			<div class="title">
+				产品管理
+			</div>
+			<a href="#!product" class="active" style="background-image: url(&quot;/dev/site/index/icons/search.svg&quot;);">全部</a>
+		</div>
+		<div class="m2">
+			<div class="title">
+				应用管理
+			</div>
+			<a href="#!service" class="active" style="background-image: url(&quot;/dev/site/index/icons/search.svg&quot;);">全部</a>
+		</div>
+		<div class="m3">
+			<div class="title">
+				用户管理
+			</div>
+			<a href="#!user" class="active" style="background-image: url(&quot;/dev/site/index/icons/search.svg&quot;);">全部</a>
+		</div>
+		<div class="m4">
+			<div class="title">
+				数据字典
+			</div>
+			<a href="#!codemap" class="active" style="background-image: url(&quot;/dev/site/index/icons/search.svg&quot;);">全部</a>
+		</div>
+	</div>
+	<div id="pages"></div>
+	<div id="head">
+		<span class="title">得力云设备管理平台</span>
+		<span class="menu">
+			<a class="m0 active" href="#!home">首页</a>
+			<a class="m1" href="#!producer">供应商管理</a>
+			<a class="m2" href="#!product">产品管理</a>
+			<a class="m3" href="#!service">应用管理</a>
+			<a class="m4" href="#!user">用户管理</a>
+			<a class="m5" href="#!codemap">数据字典</a>
+		</span>
+		<span class="user">
+			<a class="name" href="javascript:;">admin</a>
+			<div class="usermenu">
+				<a href="javascript:;" class="loginInfo">用户信息</a><a href="javascript:;" class="changepass">修改密码</a><a href="javascript:;" class="logout">退出</a>
+			</div>
+		</span>
+	</div>
+	<div id="panels"><div class="mask"></div><div class="contents"><div><a class="close" href="javascript:;">✕</a></div></div></div>
+	<div id="popups"><div><div></div><a class="close" href="javascript:;">✕</a></div></div>
+	<div id="photoview"><div></div><a class="close" href="javascript:;">✕</a><a class="prev" href="javascript:;">‹</a><a class="next" href="javascript:;">›</a><a class="rotate p" href="javascript:;">⤺</a><a class="rotate n" href="javascript:;">⤺</a></div>
+	<div id="readable"><div><div></div><a class="close" href="javascript:;">✕</a></div></div>
+	<div id="dialogs"><div><div><div></div></div><a class="close" href="javascript:;">✕</a><a class="yes" href="javascript:;">是</a><a class="no" href="javascript:;">否</a></div></div>
+	<div id="loading"><div><div>loading...</div></div></div>
+	<div id="hint"><span>_</span></div>
+</body>
+</html>
